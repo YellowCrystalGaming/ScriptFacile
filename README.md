@@ -35,12 +35,11 @@ Voici un exemple minimal de création de panneau en utilisant ScriptFacile :
 ```lua
 -- Utiliser le service shutdown
 
-local shutdown = {
-Command = false, -- Définir sur true si vous voullez déclencher le shutdown par commande
-Command_Name = "/shutdown" -- Vous pouvez modifier la commande si vous le souhaitez
-}
+Aide.Shutdown(false --[[Si vous souhaitez activer l'action par commande ou non]], "/shutdown" --[[Vous pouvez modifier la commande.]], "Ce serveur a été shutdown" --[[Vous pouvez modifier ce texte.]]"
 
-Aide.Shutdown(shutdown, "Ce serveur a été shutdown" --[[Vous pouvez modifier ce texte.]]"
+-- Utiliser le service admin
+
+Aide.Admin(1 --[[1 = HD Admin, 2 = Hycéo Admin (créé par moi), 3 = Adonis Admin]])
 ```
 
 ## ✧ Droits de Propriété Intellectuelle
