@@ -6,9 +6,9 @@ Ce plugin permet de coder facilement sur roblox.
 ## ✧ Table des Matières
 
 - [Installation](#-installation)
-- [Utilisation](-utilisation)
-- [Fonctionnalités](-fonctionnalités)
-- [Droits de Propriété Intellectuelle](-droits-de-propriété-intellectuelle)
+- [Utilisation](#-utilisation)
+- [Fonctionnalités](#-fonctionnalités)
+- [Droits de Propriété Intellectuelle](#-droits-de-propriété-intellectuelle)
 
 ## ✧ Installation
 
