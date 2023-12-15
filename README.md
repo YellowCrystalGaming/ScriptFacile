@@ -33,13 +33,22 @@ local ScriptFacile = require(game.ServerScriptService.ScriptFacile)
 Voici un exemple minimal de création de panneau en utilisant ScriptFacile :
 
 ```lua
--- Utiliser le service shutdown
+tiliser le service shutdown
 
-Aide.Shutdown(false --[[Si vous souhaitez activer l'action par commande ou non]], "/shutdown" --[[Vous pouvez modifier la commande.]], "Ce serveur a été shutdown" --[[Vous pouvez modifier ce texte.]]"
+Aide.Shutdown("/shutdown" --[[Vous pouvez modifier la commande.]], "Ce serveur a été shutdown" --[[Vous pouvez modifier ce texte.]]"
 
 -- Utiliser le service admin
 
 Aide.Admin(1 --[[1 = HD Admin, 2 = Hycéo Admin (créé par moi), 3 = Adonis Admin]])
+
+-- Utiliser le service kill
+
+Aide.Kill("Kill" --[[Nom du tag que vous pouvez changer]], 100 --[[Nombre de dégats que vous pouvez changer]])
+
+-- Utiliser le service leaderstats
+
+Aide.Leaderstats("Money" --[[Vous pouvez le changer]], Instance.new("IntValue") --[[Vous pouvez le changer]], "Cash" --[[Vous pouvez le changer]], Instance.new("IntValue") --[[Vous pouvez le changer]])
+
 ```
 
 ## ✧ Droits de Propriété Intellectuelle
