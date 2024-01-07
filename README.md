@@ -33,7 +33,7 @@ local ScriptFacile = require(game.ServerScriptService.ScriptFacile)
 Voici un exemple minimal de création de panneau en utilisant ScriptFacile :
 
 ```lua
-tiliser le service shutdown
+-- Utiliser le service shutdown
 
 Aide.Shutdown("/shutdown" --[[Vous pouvez modifier la commande.]], "Ce serveur a été shutdown" --[[Vous pouvez modifier ce texte.]]"
 
