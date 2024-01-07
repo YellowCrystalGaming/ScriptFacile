@@ -49,6 +49,10 @@ Aide.Kill("Kill" --[[Nom du tag que vous pouvez changer]], 100 --[[Nombre de dé
 
 Aide.Leaderstats("Money" --[[Vous pouvez le changer]], Instance.new("IntValue") --[[Vous pouvez le changer]], "Cash" --[[Vous pouvez le changer]], Instance.new("IntValue") --[[Vous pouvez le changer]])
 
+-- Utiliser le service teams
+
+Aide.Teams("Team1" --[[Vous pouvez changer]], true --[[Vous pouvez changer]], BrickColor.new("Black") --[[Vous pouvez changer]],  --[[Vous pouvez rajouter des 5 autres teams sur le code après]]
+
 ```
 
 ## ✧ Droits de Propriété Intellectuelle
